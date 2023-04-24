@@ -1,0 +1,85 @@
+{
+  "name": "material-cra-ts",
+  "version": "5.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/material": "latest",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/react": "^14.0.0",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "lodash.debounce": "^4.0.8",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.43.9",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "latest",
+    "redux": "^4.2.1",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "lint": "npx eslint src",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@types/eslint": "8.21.1",
+    "@types/eslint-config-prettier": "6.11.0",
+    "@types/eslint-plugin-prettier": "3.1.0",
+    "@types/jest": "29.2.4",
+    "@types/lodash.debounce": "^4.0.7",
+    "@types/node": "18.11.17",
+    "@types/prettier": "2.7.2",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.9",
+    "@typescript-eslint/eslint-plugin": "5.47.0",
+    "@typescript-eslint/parser": "5.47.0",
+    "eslint": "8.35.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-typescript": "17.0.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-import-resolver-typescript": "3.5.3",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-simple-import-sort": "10.0.0",
+    "eslint-plugin-sort-destructure-keys": "1.5.0",
+    "eslint-plugin-sort-keys-fix": "1.1.2",
+    "eslint-plugin-typescript-sort-keys": "2.1.0",
+    "prettier": "2.8.4",
+    "stylelint": "14.16.0",
+    "stylelint-config-clean-order": "2.3.0",
+    "stylelint-config-prettier": "9.0.4",
+    "stylelint-config-standard": "29.0.0",
+    "stylelint-order": "5.0.0",
+    "typescript": "4.9.4"
+  }
+}
