@@ -29,7 +29,7 @@ export const EditPersonForm = ({ defaultValues, onClose }: EditFormProps) => {
     <Box
       component='form'
       onSubmit={handleSubmit(onSubmit)}
-      sx={{ padding: '15px', width: '400px' }}
+      sx={{ padding: '16px', width: '400px' }}
     >
       <Grid
         alignItems='baseline'
